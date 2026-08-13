@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apartmani Sanja – ugodan smještaj i izravna rezervacija."
+    />
+    <title>Apartmani Sanja | Vaš odmor počinje ovdje</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#pocetna" aria-label="Apartmani Sanja, početna">Apartmani <strong>Sanja</strong></a>
+      <p class="header-location">Ždrelac, otok Pašman</p>
+      <div class="language-picker" data-language-picker>
+        <button class="language-trigger" type="button" aria-label="Odaberite jezik" aria-expanded="false" aria-haspopup="listbox" data-language-trigger><span class="language-flag" aria-hidden="true" data-language-flag>🇭🇷</span><span class="sr-only" data-language-current>Hrvatski</span></button>
+        <div class="language-menu" role="listbox" aria-label="Odaberite jezik" data-language-menu hidden>
+          <button type="button" role="option" aria-selected="true" data-language-option="hr"><span aria-hidden="true">🇭🇷</span><span>Hrvatski</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="en"><span aria-hidden="true">🇬🇧</span><span>English</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="sl"><span aria-hidden="true">🇸🇮</span><span>Slovenščina</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="it"><span aria-hidden="true">🇮🇹</span><span>Italiano</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="de"><span aria-hidden="true">🇩🇪</span><span>Deutsch</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="pl"><span aria-hidden="true">🇵🇱</span><span>Polski</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="sk"><span aria-hidden="true">🇸🇰</span><span>Slovenčina</span></button>
+          <button type="button" role="option" aria-selected="false" data-language-option="cs"><span aria-hidden="true">🇨🇿</span><span>Čeština</span></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="pocetna">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroLocation">Ždrelac · otok Pašman</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Mjesto za mirne dane uz more.</h1>
+          <p class="hero-text" data-i18n="heroText">Ugodni apartmani za bezbrižan odmor na otoku Pašmanu.</p>
+          <div class="hero-highlights" aria-label="Najvažnije informacije">
+            <div class="highlight"><strong>100 m</strong><span data-i18n="sea">do mora</span></div>
+            <div class="highlight"><strong>5 min</strong><span data-i18n="centre">šetnjom do centra Ždrelca</span></div>
+            <div class="highlight"><strong data-i18n="beachTitle">Pješčana plaža</strong><span data-i18n="beachText">prirodna i idealna za djecu</span></div>
+            <div class="highlight"><strong data-i18n="quietTitle">Miran odmor</strong><span data-i18n="quietText">idealno mjesto za obiteljski odmor</span></div>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="images/hero-apartmani-v2.png" alt="Ulaz u Apartmane Sanja u Ždrelcu na otoku Pašmanu" />
+        </div>
+      </section>
+
+      <section class="apartments section" id="apartmani" aria-labelledby="apartments-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="accommodation">Smještaj</p>
+            <h2 id="apartments-title" data-i18n="chooseApartment">Odaberite svoj apartman</h2>
+          </div>
+        </div>
+
+        <div class="apartment-list">
+          <article class="apartment-card">
+            <a class="card-image" href="apartman-1.html">
+              <img src="images/hero-more.png" alt="Terasa Plavog Apartmana s pogledom na more" />
+            </a>
+            <div class="card-content">
+              <p class="card-label">2+2</p>
+              <h3><a href="apartman-1.html">Plavi Apartman</a></h3>
+              <p data-i18n="blueCard">Svijetao i udoban apartman s terasom, idealan za parove i malu obitelj.</p>
+              <a class="text-link" href="apartman-1.html"><span data-i18n="details">Detalji i slobodni termini</span> <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="apartment-card">
+            <a class="card-image" href="apartman-2.html">
+              <img src="images/apartman-2/WhatsApp Image 2026-08-13 at 14.15.34 (4).jpeg" alt="Žuti apartman" />
+            </a>
+            <div class="card-content">
+              <p class="card-label">4+1</p>
+              <h3><a href="apartman-2.html">Žuti Apartman</a></h3>
+              <p data-i18n="yellowCard">Prostran apartman za obitelj ili prijatelje, s prostorom za zajedničko druženje.</p>
+              <a class="text-link" href="apartman-2.html"><span data-i18n="details">Detalji i slobodni termini</span> <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="apartment-card">
+            <a class="card-image" href="apartman-3.html">
+              <img src="images/studio-homepage.png" alt="Terasa Studio Apartmana s pogledom na šumu i more" />
+            </a>
+            <div class="card-content">
+              <p class="card-label">2</p>
+              <h3><a href="apartman-3.html">Studio Apartman</a></h3>
+              <p data-i18n="studioCard">Miran i praktičan apartman, odličan izbor za parove.</p>
+              <a class="text-link" href="apartman-3.html"><span data-i18n="details">Detalji i slobodni termini</span> <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="why-us section" aria-labelledby="why-title">
+          <p class="eyebrow" data-i18n="simple">Jednostavno i bez stresa</p>
+          <h2 id="why-title" data-i18n="directBooking">Dogovorite boravak izravno s nama.</h2>
+        <div class="benefits">
+          <div><span>01</span><h3 data-i18n="fastTitle">Brz odgovor</h3><p data-i18n="fastText">Pošaljite upit i javit ćemo vam se s potvrdom dostupnosti.</p></div>
+          <div><span>02</span><h3 data-i18n="datesTitle">Jasni termini</h3><p data-i18n="datesText">Na stranici svakog apartmana uvijek su označeni slobodni dani.</p></div>
+          <div><span>03</span><h3 data-i18n="welcomeTitle">Topla dobrodošlica</h3><p data-i18n="welcomeText">Tu smo ako vam treba preporuka za plažu, restoran ili izlet.</p></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="kontakt" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow" data-i18n="reservations">Rezervacije i upiti</p>
+          <h2 id="contact-title" data-i18n="foundDates">Pronašli ste svoj termin?</h2>
+          <p data-i18n="contactText">Javite nam se porukom. Navedite apartman, željene datume i broj osoba.</p>
+        </div>
+        <a class="button button-primary" href="https://wa.me/38598255315" target="_blank" rel="noreferrer" data-i18n="whatsapp">Pošaljite WhatsApp poruku</a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo" href="#pocetna">Apartmani <strong>Sanja</strong></a>
+      <p>© <span id="year"></span> Apartmani Sanja</p>
+    </footer>
+    <script src="script.js?v=5"></script>
+  </body>
+</html>

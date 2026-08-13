@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mjesto za fotografiju apartmana</title>
+  <desc id="desc">Neutralna zamjenska slika koju treba zamijeniti vlastitom fotografijom apartmana.</desc>
+  <rect width="1600" height="1000" fill="#dcece8"/>
+  <circle cx="1250" cy="210" r="105" fill="#badcd4"/>
+  <path d="M0 720 340 450l235 190 305-285 720 365v280H0Z" fill="#9ac9bd"/>
+  <path d="M0 820 400 580l330 270 290-230 580 200v180H0Z" fill="#5b9d91"/>
+  <rect x="100" y="100" width="500" height="205" rx="26" fill="#fff" fill-opacity=".88"/>
+  <text x="145" y="185" fill="#164840" font-family="Arial, sans-serif" font-size="38" font-weight="700">VAŠA FOTOGRAFIJA</text>
+  <text x="145" y="240" fill="#387267" font-family="Arial, sans-serif" font-size="25">Dodajte sliku apartmana u mapu images</text>
+</svg>
